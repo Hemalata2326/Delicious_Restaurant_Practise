@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url('../img/bg1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.header h1{
+    text-align: center;
+    /* border: 2px solid black; */
+    padding-top: 200px;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(90deg,rgb(97, 1, 1),rgb(0, 0, 177));
+    background-clip: text;
+    color: transparent;
+}
+.nav ul{
+    list-style-type: none;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+.nav ul li{
+    float: left;
+    
+}
+.nav ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+   
+    /* border: 2px solid black; */
+    padding: 20px;
+    filter: blur();
+    font-size: 40px;
+    /* backdrop-filter: blur(10px); */
+}

@@ -1,0 +1,50 @@
+body{
+    background-color: whitesmoke;
+}
+.nav ul{
+    list-style-type: none;
+    /* margin-left: 600px; */
+    /* margin-top: 20px; */
+}
+.nav ul li{
+    float: right;
+    
+}
+.nav ul li a{
+    display: block;
+    color: rgb(207, 21, 21);
+    text-decoration: none;
+   
+    /* border: 2px solid black; */
+    padding: 20px;
+    /* filter: blur(); */
+    font-size: 30px;
+    /* backdrop-filter: blur(10px); */
+}
+.section1 h1{
+    padding-left: 500px;
+}
+.img .nonveg{
+    /* border: 2px solid black; */
+    margin-top: 100px;
+}
+.img .nonveg h1{
+    /* border: 1px solid black; */
+    margin-left: 600px;
+    margin-right: 600px;
+    color: chocolate;
+}
+.nonveg img{
+    padding: 10px;
+}
+.img .veg{
+    margin-top: 50px;
+}
+.img .veg h1{
+    margin-left: 600px;
+    margin-right: 600px;
+    color: chocolate;
+}
+.veg img{
+    padding: 10px;
+}
